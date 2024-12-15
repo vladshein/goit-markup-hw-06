@@ -31,9 +31,14 @@
                 >Studio</a
               >
             </li>
-            <li><a class="header-nav-list-link" href="">Portfolio</a></li>
+            <li><a class="header-nav-list-link-first" href="">Portfolio</a></li>
             <li><a class="header-nav-list-link" href="">Contacts</a></li>
           </ul>
+          <button class="header-burger" type="button">
+            <svg class="header-burger-icon" width="16.8" height="14.4">
+              <use href="./images/icons.svg#burger"></use>
+            </svg>
+          </button>
         </nav>
 
         <!-- header contact -->
@@ -67,14 +72,14 @@
       <section class="section-one">
         <div class="container">
           <h2 class="visually-hidden">Our strength</h2>
-          <ul class="section-list">
+          <ul class="section-one-list">
             <li class="section-list-item-first">
               <div class="icon-thumb">
                 <svg class="icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="section-list-item-header">Strategy</h3>
+              <h3 class="section-one-list-item-header">Strategy</h3>
               <p class="section-list-item-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -86,7 +91,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="section-list-item-header">Punctuality</h3>
+              <h3 class="section-one-list-item-header">Punctuality</h3>
               <p class="section-list-item-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -99,7 +104,7 @@
                 </svg>
               </div>
 
-              <h3 class="section-list-item-header">Diligence</h3>
+              <h3 class="section-one-list-item-header">Diligence</h3>
               <p class="section-list-item-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -111,7 +116,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="section-list-item-header">Technologies</h3>
+              <h3 class="section-one-list-item-header">Technologies</h3>
               <p class="section-list-item-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -122,12 +127,17 @@
       </section>
       <!-- section 2 Our Team-->
       <section class="section-two">
-        <div class="section-container container">
+        <div class="container">
+          <!-- section-container -->
           <h2 class="section-header-two">Our Team</h2>
-          <ul class="section-list">
+          <ul class="section-list-two">
             <li class="section-two-list-item">
               <img
-                src="./images/our-team/img.jpg"
+                srcset="
+                  ./images/our-team/img@1x-3.jpg 1x,
+                  ./images/our-team/img@2x-3.jpg 2x
+                "
+                src="./images/our-team/img@1x-3.jpg"
                 alt="Mark Guerrero"
                 width="264"
               />
@@ -168,7 +178,11 @@
             </li>
             <li class="section-two-list-item">
               <img
-                src="./images/our-team/img-1.jpg"
+                srcset="
+                  ./images/our-team/img@1x-2.jpg 1x,
+                  ./images/our-team/img@2x-2.jpg 2x
+                "
+                src="./images/our-team/img@1x-2.jpg"
                 alt="Tom Ford"
                 width="264"
               />
@@ -209,7 +223,11 @@
             </li>
             <li class="section-two-list-item">
               <img
-                src="./images/our-team/img-2.jpg"
+                srcset="
+                  ./images/our-team/img@1x-1.jpg 1x,
+                  ./images/our-team/img@2x-1.jpg 2x
+                "
+                src="./images/our-team/img@1x-1.jpg"
                 alt="Camila Garcia"
                 width="264"
               />
@@ -250,7 +268,11 @@
             </li>
             <li class="section-two-list-item">
               <img
-                src="./images/our-team/img-3.jpg"
+                srcset="
+                  ./images/our-team/img@1x.jpg 1x,
+                  ./images/our-team/img@2x.jpg 2x
+                "
+                src="./images/our-team/img@1x.jpg"
                 alt="Daniel Wilson"
                 width="264"
               />
@@ -296,11 +318,15 @@
       <section class="section-three">
         <div class="container">
           <h2 class="section-header section-header-three">Our Portfolio</h2>
-          <ul class="section-list section-list-three">
+          <ul class="section-list-three">
             <li class="section-three-list-item">
               <div class="section-three-list-image">
                 <img
-                  src="./images/our-portfolio/img-5.jpg"
+                  srcset="
+                    ./images/our-portfolio/img@1x-5.jpg 1x,
+                    ./images/our-portfolio/img@2x-5.jpg 2x
+                  "
+                  src="./images/our-portfolio/img@1x-5.jpg"
                   alt="Banking App"
                   width="360"
                 />
@@ -319,7 +345,11 @@
             <li class="section-three-list-item">
               <div class="section-three-list-image">
                 <img
-                  src="./images/our-portfolio/img-4.jpg"
+                  srcset="
+                    ./images/our-portfolio/img@1x-4.jpg 1x,
+                    ./images/our-portfolio/img@2x-4.jpg 2x
+                  "
+                  src="./images/our-portfolio/img@1x-4.jpg"
                   alt="Cashless Payment"
                   width="360"
                 />
@@ -338,7 +368,11 @@
             <li class="section-three-list-item">
               <div class="section-three-list-image">
                 <img
-                  src="./images/our-portfolio/img-3.jpg"
+                  srcset="
+                    ./images/our-portfolio/img@1x-3.jpg 1x,
+                    ./images/our-portfolio/img@2x-3.jpg 2x
+                  "
+                  src="./images/our-portfolio/img@1x-3.jpg"
                   alt="Meditation App"
                   width="360"
                 />
@@ -356,7 +390,11 @@
             <li class="section-three-list-item">
               <div class="section-three-list-image">
                 <img
-                  src="./images/our-portfolio/img-2.jpg"
+                  srcset="
+                    ./images/our-portfolio/img@1x-2.jpg 1x,
+                    ./images/our-portfolio/img@2x-2.jpg 2x
+                  "
+                  src="./images/our-portfolio/img@1x-2.jpg"
                   alt="Taxi Service"
                   width="360"
                 />
@@ -374,7 +412,11 @@
             <li class="section-three-list-item">
               <div class="section-three-list-image">
                 <img
-                  src="./images/our-portfolio/img-1.jpg"
+                  srcset="
+                    ./images/our-portfolio/img@1x-1.jpg 1x,
+                    ./images/our-portfolio/img@2x-1.jpg 2x
+                  "
+                  src="./images/our-portfolio/img@1x-1.jpg"
                   alt="Screen Illustrations"
                   width="360"
                 />
@@ -392,7 +434,11 @@
             <li class="section-three-list-item">
               <div class="section-three-list-image">
                 <img
-                  src="./images/our-portfolio/img.jpg"
+                  srcset="
+                    ./images/our-portfolio/img@1x.jpg 1x,
+                    ./images/our-portfolio/img@2x.jpg 2x
+                  "
+                  src="./images/our-portfolio/img@1x.jpg"
                   alt="Online Courses"
                   width="360"
                 />
@@ -571,15 +617,17 @@
                   <use href="./images/icons.svg#vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                class="modal-form-agreement-link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Privacy Policy
-              </a>
+              <span class="terms-and-conditions">
+                I accept the terms and conditions of the
+                <a
+                  class="modal-form-agreement-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy
+                </a>
+              </span>
             </label>
           </div>
           <!-- button -->
@@ -588,6 +636,63 @@
           </button>
         </form>
       </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <button class="mobile-menu-btn">
+        <svg class="mobile-menu-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#cross"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-nav">
+        <li class="mobile-menu-nav-item">
+          <a class="mobile-menu-nav-link active" href="#">Studio</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a class="mobile-menu-nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a class="mobile-menu-nav-link" href="#">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu-contacts">
+        <li class="mobile-menu-contacts-item accent">
+          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+        <li class="mobile-menu-contacts-item">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="footer-socials-list">
+        <li class="footer-socials-background">
+          <a class="footer-list-link" href="">
+            <svg class="socials-icons" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socials-background">
+          <a class="footer-list-link" href="">
+            <svg class="socials-icons" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socials-background">
+          <a class="footer-list-link" href="">
+            <svg class="socials-icons" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socials-background">
+          <a class="footer-list-link" href="">
+            <svg class="socials-icons" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
